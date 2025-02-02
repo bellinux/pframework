@@ -1,6 +1,7 @@
 ---
 title: Button
-nav_order: 2
+parent: Components
+nav_order: 1
 ---
 
 # The Button Component
