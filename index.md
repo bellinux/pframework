@@ -1,5 +1,5 @@
 ---
-title: Protobject Code Docs
+title: Protobject Code
 nav_order: 1
 ---
 
