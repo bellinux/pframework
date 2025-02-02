@@ -1,7 +1,6 @@
 ---
-title: Get Started
+title: Home
 nav_order: 1
-has_toc: false 
 ---
 
 # Protobject Framework Documentation
