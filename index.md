@@ -1,6 +1,7 @@
 ---
 title: Protobject Code
 nav_order: 1
+has_toc: false 
 ---
 
 # Protobject Framework Documentation
