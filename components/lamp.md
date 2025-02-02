@@ -1,3 +1,9 @@
+---
+title: Lamp
+parent: Components
+nav_order: 2
+---
+
 # The Lamp Component
 
 The Lamp class is a JavaScript utility designed to create a customizable lamp-like element with a default or user-defined style. It allows you to set the color and style of the lamp and remove it when needed.
