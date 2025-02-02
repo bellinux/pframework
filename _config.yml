@@ -1,8 +1,4 @@
 remote_theme: just-the-docs/just-the-docs
 title: Protobject Framework
 description: A complete guide to Protobject Framework
-just_the_docs:
-  heading_anchors: true  # Attiva i link automatici alle sezioni
-  back_to_top: true  # Aggiunge il pulsante "Torna su"
-  back_to_top_text: "🔝 Torna su"
-  search_enabled: false  # Disabilita la ricerca (opzionale)
+search_enabled: false
