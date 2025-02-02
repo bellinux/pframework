@@ -8,21 +8,13 @@ nav_order: 2
 
 The Lamp class is a JavaScript utility designed to create a customizable lamp-like element with a default or user-defined style. It allows you to set the color and style of the lamp and remove it when needed.
 
-## Import the Component
-
-To use the `Lamp`, you need to include it in your project:
-
-```javascript
-import Lamp from './js/lamp.js';
-```
-
 ## Creating a Lamp
  
 To create a lamp, instantiate the `Lamp` class with an optional style object.
 
 ```javascript
 
-const lamp = new Lamp({
+const lamp = new Protobject.Lamp({
     width: '200px',
     height: '200px',
     top: '50px',
