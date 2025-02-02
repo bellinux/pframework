@@ -135,6 +135,4 @@ This mechanism allows seamless interaction between different components in the s
 
 ## Available Components
 
-In addition to buttons and lamps, the Protobject Framework offers a variety of interactive components. You can find all available components listed in the right sidebar of the documentation.
-
-For more details on each component, refer to the [Protobject Component Reference].
+In addition to buttons and lamps, the Protobject Framework offers a variety of [interactive components](components.html).
