@@ -6,7 +6,7 @@ nav_order: 4
 
 # The Inclination Component
 
-The Inclination component provides a simple interface for accessing and handling inclination data from a device's sensors. It allows setting a callback function to handle inclination data.
+The `Inclination` component provides a simple interface for accessing and handling inclination data from a device's sensors. It allows setting a callback function to handle inclination data.
 
 
 ## Starting the Inclination component

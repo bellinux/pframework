@@ -1,15 +1,15 @@
 ---
-title: Camera Movement
+title: CameraMovement
 parent: Components
 nav_order: 5
 ---
 
-# The Camera Movement Component
+# The CameraMovement Component
 
-The CameraMovement component facilitates camera-based motion detection. It captures webcam input, and calculates motion direction and magnitude. Users can set a callback function to receive motion data updates.
+The `CameraMovement` component facilitates camera-based motion detection. It captures webcam input, and calculates motion direction and magnitude. Users can set a callback function to receive motion data updates.
 
 
-## Starting Camera Movement Detection
+## Starting CameraMovement Detection
 To start detecting camera movements and calculating optical flow, call the `start` method. You can specify an optional frequency (in milliseconds) and an optional camera ID.
 
 ```javascript
