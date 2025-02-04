@@ -5,7 +5,7 @@ nav_order: 2
 
 # Configuration File (`config.js`)
 
-The `config.js` file is essential for defining the structure of a multi-device interactive application built with Protobject Framework. This file specifies the connected devices (or application pages), their roles, and debugging preferences.
+The `config.js` file is essential for defining the structure of distributed interactive application built with Protobject Framework. This file specifies the connected devices (or application pages), their roles, and debugging preferences.
 
 ## Defining Connected Devices
 
