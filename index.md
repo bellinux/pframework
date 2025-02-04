@@ -11,9 +11,6 @@ Welcome to the documentation for **Protobject Framework**, a system designed for
 [Getting Started](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Demo Projects](demo.md){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-{: .note }
-> [Glitch](https://glitch.com) is an **excellent platform** for developing with the Protobject Framework.  
-> It allows **quick prototyping**, **easy collaboration**, and **real-time updates**.  
 
 ---
 
@@ -118,6 +115,12 @@ Protobject.initialize([
 </html>
 ```
 
+{: .note }
+> [Glitch](https://glitch.com) is an **excellent platform** for developing with the Protobject Framework.  
+> It allows **quick prototyping**, **easy collaboration**, and **real-time updates**.
+> [See the example above on Glitch](https://glitch.com/edit/#!/protobject-basic-framework)
+
+
 ### How It Works
 
 - A **plus icon (+)** appears on the main page to allow secondary pages to connect (e.g., using a QR code or a link).
@@ -131,7 +134,7 @@ Protobject.initialize([
 
 Protobject applications consist of one main page and multiple secondary pages, which may run on different devices such as smartphones, tablets, or PCs.
 
-Devices can communicate by sending and receiving messages using the **Protobject Communication API**.
+Devices can communicate by sending and receiving messages using the **[Protobject Core API](communication.md)**.
 
 Example of message transmission:
 
