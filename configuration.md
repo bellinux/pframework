@@ -1,7 +1,6 @@
 ---
 title: Configuration
-parent: Getting Started
-nav_order: 1
+nav_order: 3
 ---
 
 # Application Configuration (config.js)
