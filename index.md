@@ -123,7 +123,7 @@ Protobject.initialize([
 
 ### How It Works
 
-- A **[plus icon](https://github.com/user-attachments/assets/4d4ab57a-e437-4762-9b0e-378cbeaae482) (+)** appears on the main page to allow secondary pages to connect (e.g., using a QR code or a link).
+- A **[plus icon](https://github.com/user-attachments/assets/c38902b1-f117-4555-be00-2d7c27f699d3) (+)** appears on the main page to allow secondary pages to connect (e.g., using a QR code or a link).
 - The **main page** (`index.html`) displays a lamp.
 - The **secondary page** (`button.html`) provides a button interface.
 - When the button is pressed, it sends a `true` message to `index.html`, turning the lamp red.
