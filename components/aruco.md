@@ -1,5 +1,5 @@
 ---
-title: ARuco 
+title: ArUco 
 parent: Components
 nav_order: 20
 ---
