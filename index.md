@@ -117,11 +117,13 @@ Protobject.initialize([
 
 {: .note }
 > [Glitch](https://glitch.com) is an **excellent platform** for developing with the Protobject Framework.  
-> It allows **quick prototyping**, **easy collaboration**, and **real-time updates**.
+> It allows **quick prototyping**, **easy collaboration**, and **real-time updates**.  
 > [See the example above on Glitch](https://glitch.com/edit/#!/protobject-basic-framework)
 
 
 ### How It Works
+
+![plus](https://github.com/user-attachments/assets/4d4ab57a-e437-4762-9b0e-378cbeaae482)
 
 - A **plus icon (+)** appears on the main page to allow secondary pages to connect (e.g., using a QR code or a link).
 - The **main page** (`index.html`) displays a lamp.
