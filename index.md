@@ -115,7 +115,7 @@ Protobject.initialize([
 </html>
 ```
 
-[Edit on Glitch](https://glitch.com/edit/#!/protobject-basic-framework){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}  
+[Edit on Glitch](https://glitch.com/edit/#!/protobject-basic-framework){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 [Watch the Video](https://github.com/user-attachments/assets/1f7bdf5d-e470-4a5d-a778-e3f7843a685c){: .btn .fs-5 .mb-4 .mb-md-0 target="_blank"}
 
 
