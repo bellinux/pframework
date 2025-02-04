@@ -4,9 +4,9 @@ parent: Components
 nav_order: 20
 ---
 
-# The ARuco Component
+# The ArUco Component
 
-The `ARuco` component facilitates the detection of ArUco markers using the webcam. It captures webcam video, identifies ArUco markers, and provides updated data on detected markers (size, position). Users can set callback functions to receive updates on markers and manage the preview display.
+The `ArUco` component facilitates the detection of ArUco markers using the webcam. It captures webcam video, identifies ArUco markers, and provides updated data on detected markers (size, position). Users can set callback functions to receive updates on markers and manage the preview display.
 
 {: .highlight }
 > For the best development experience when working with video streams, it is recommended to design for horizontal (landscape) orientation on mobile devices. Working in vertical (portrait) orientation may result in distortion or stretching of the video display.
