@@ -8,9 +8,9 @@ nav_order: 22
 
 The `BodySensor` component facilitates the detection of human bodies using the webcam. It captures webcam video, identifies body landmarks, and provides updated data on detected bodies (position, features). Users can set callback functions to receive updates on bodies and manage the preview display.
 
-
-For the best development experience when working with video streams, it is recommended to design for horizontal (landscape) orientation on mobile devices. Working in vertical (portrait) orientation may result in distortion or stretching of the video display.
 {: .highlight }
+> For the best development experience when working with video streams, it is recommended to design for horizontal (landscape) orientation on mobile devices. Working in vertical (portrait) orientation may result in distortion or stretching of the video display.
+
 
 ## Starting Body Detection
 To begin detecting bodies, use the start method. You can specify an optional frequency (in milliseconds) and an optional camera ID.
