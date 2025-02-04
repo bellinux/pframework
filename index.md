@@ -115,10 +115,16 @@ Protobject.initialize([
 </html>
 ```
 
+[Edit on Glitch](https://glitch.com/edit/#!/protobject-basic-framework){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}  
+[Watch the Video](https://github.com/user-attachments/assets/1f7bdf5d-e470-4a5d-a778-e3f7843a685c){: .btn .fs-5 .mb-4 .mb-md-0 target="_blank"}
+
+
 {: .note }
 > [Glitch](https://glitch.com) is an **excellent platform** for developing with the Protobject Framework.  
 > It allows **quick prototyping**, **easy collaboration**, and **real-time updates**.  
-> [See the example above on Glitch](https://glitch.com/edit/#!/protobject-basic-framework)
+
+
+
 
 
 ### How It Works
