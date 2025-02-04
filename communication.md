@@ -1,6 +1,6 @@
 ---
 title: Communication
-nav_order: 2
+nav_order: 3
 ---
 
 # Communication Between Devices (core API)
