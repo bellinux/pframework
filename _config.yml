@@ -2,7 +2,8 @@ remote_theme: just-the-docs/just-the-docs
 title: Protobject Framework
 description: A complete guide to Protobject Framework
 
+markdown: kramdown
 kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
+  input: GFM
+  syntax_highlighter: rouge
+
