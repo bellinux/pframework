@@ -3,9 +3,9 @@ title: Communication
 nav_order: 3
 ---
 
-# Communication Between Devices
+# Communication Between Devices (Core API)
 
-Protobject Framework enables seamless communication between multiple devices, allowing them to interact dynamically within a distributed system. This is achieved through message sending and receiving mechanisms.
+Protobject Framework enables seamless communication between multiple devices, allowing them to interact dynamically within a distributed system by using Core API. This is achieved through message sending and receiving mechanisms.
 
 ## Sending Messages
 
