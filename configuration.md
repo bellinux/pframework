@@ -55,6 +55,10 @@ Each object inside `Protobject.initialize([])` can contain the following paramet
 
 Debugging distributed applications can be challenging, especially when different devices are involved. Protobject provides two debugging modes to facilitate this process:
 
+{: .note }
+> **In any case, the browser's devtools must be used to view messages and logs for effective troubleshooting.**
+
+
 ### **Local Debugging (`localDebug: true`)**
 
 - Errors, logs, warnings (`console.log`, `console.warn`, etc.) are displayed directly on the same page where they occur.
