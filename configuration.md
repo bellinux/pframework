@@ -17,7 +17,7 @@ Each page in a Protobject application corresponds to a device or a specific inte
 Protobject.initialize([
   {
     name: "Main Device",
-    page: "main.html",
+    page: "index.html",
     main: true,
     remoteDebug: true,
   },
