@@ -11,6 +11,11 @@ Welcome to the documentation for **Protobject Framework**, a system designed for
 [Getting Started](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Demo Projects](demo.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+{: .note }
+> **Glitch is an excellent platform for developing with the Protobject Framework.**  
+> It allows quick prototyping, easy collaboration, and real-time updates.  
+> Try it now: [Glitch.com](https://glitch.com)
+
 ---
 
 ## Getting Started
