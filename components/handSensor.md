@@ -8,7 +8,8 @@ nav_order: 21
 
 The `HandSensor` component facilitates the detection of hands using the webcam. It captures webcam video, identifies hand landmarks, and provides updated data on detected hands (position, gestures). Users can set callback functions to receive updates on hands and manage the preview display.
 
-<mark>*Notice: For the best development experience when working with video streams, it is recommended to design for horizontal (landscape) orientation on mobile devices. Working in vertical (portrait) orientation may result in distortion or stretching of the video display.*</mark>
+{: .highlight }
+> For the best development experience when working with video streams, it is recommended to design for horizontal (landscape) orientation on mobile devices. Working in vertical (portrait) orientation may result in distortion or stretching of the video display.
 
 
 ## Starting Hand Detection
