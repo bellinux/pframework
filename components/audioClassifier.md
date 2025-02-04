@@ -8,8 +8,6 @@ nav_order: 24
 
 The `AudioClassifier` component facilitates the detection and classification of audio inputs using the microphone. It captures audio, identifies different sound categories, and provides updated data on detected audio events. Users can set callback functions to receive updates on audio classifications.
 
-<mark>*Notice: For the best development experience when working with video streams, it is recommended to design for horizontal (landscape) orientation on mobile devices. Working in vertical (portrait) orientation may result in distortion or stretching of the video display.*</mark>
-
 
 ## Starting Audio Detection
 To start classifying audio, call the start method.
