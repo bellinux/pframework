@@ -37,7 +37,7 @@ Protobject.Core.onReceived(function (message) {
 
 In this example, the page logs whether it received an `ON` or `OFF` signal.
 
-## Multi-Device Interaction
+## Distributed Multi-Device Interaction
 
 Protobject applications consist of:
 - **One main page** (e.g., `main.html`).
