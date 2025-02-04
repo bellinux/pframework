@@ -63,7 +63,6 @@ Debugging distributed applications can be challenging, especially when different
 
 ### **Remote Debugging (`remoteDebug: true`)**
 
-- Useful when debugging pages running on devices with limited debugging capabilities (e.g., smartphones).
 - When a page has `remoteDebug: true`, all connected pages without `localDebug: true` will send their logs and errors to this page.
 - This allows centralizing logs and debugging information in a single interface.
 
