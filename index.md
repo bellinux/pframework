@@ -30,19 +30,19 @@ The `config.js` file is used to configure the pages of your interactive applicat
 ```javascript
 Protobject.setProduction(true)
 Protobject.initialize(
-	[
-		{ 
-			name: "Button",
-			page: "button.html",
-			debug: "local",
-		},
-		{ 
-			name: "Lamp",
-			page: "index.html",
-			main: true,
-			debug: "master",
-		}
-	]);
+[
+  { 
+    name: "Button",
+    page: "button.html",
+    debug: "local",
+  },
+  { 
+    name: "Lamp",
+    page: "index.html",
+    main: true,
+    debug: "master",
+  }
+]);
 ```
 
 ### Example `index.html` (Lamp Page)
