@@ -1,7 +1,7 @@
 ---
 title: Components
 nav_order: 5
-toc: false
+has_toc: false
 ---
 
 # Available Components
