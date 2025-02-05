@@ -9,7 +9,7 @@ The `config.js` file is essential for defining the structure of distributed inte
 
 ## Enabling Production Mode
 
-Before defining the connected devices and their debugging configuration, you can enable production mode to ensure that your application has a unique identifier, avoiding potential conflicts between multiple instances of the app. This is particularly important when you're deploying your application publicly.
+You can enable production mode to ensure that your application has a unique identifier when started (using the `?ptjuid={random}` parameter), avoiding potential conflicts between multiple instances of the web app. This is particularly important when you're deploying your application publicly.
 
 To enable production mode, set `Protobject.setProduction(true)` at the beginning of the `config.js` file:
 
@@ -25,9 +25,7 @@ This will generate a unique identifier for the application instance. During deve
 
 ## Defining Connected Devices
 
-Each page in a Protobject application corresponds to a device or a specific interface within the system. The `Protobject.initialize([])` function takes an array of objects, each representing a device/page with specific attributes.
-
-Each object inside `Protobject.initialize([])` can contain the following parameters:
+Each page in a Protobject application corresponds to a device or a specific interface within the system. The `Protobject.initialize([])` function takes an array of objects, each representing a device/page with specific attributes. Each object inside `Protobject.initialize([])` can contain the following parameters:
 
 | Parameter   | Type    | Default | Description |
 |------------|--------|---------|-------------|
