@@ -18,7 +18,7 @@ For deployment, enable production mode by setting `Protobject.setProduction(true
 
 ## Defining Connected Devices
 
-Each page in a Protobject application corresponds to a device or a specific interface within the system. The `Protobject.initialize([])` function takes an array of objects, each representing a device/page with specific attributes. Each object inside `Protobject.initialize([])` can contain the following parameters:
+In a Protobject application, each page represents either a device or a specific interface within the system. The `Protobject.initialize([])` function accepts an array of objects, where each object defines a device or page with specific attributes. These objects can include the following parameters:
 
 | Parameter   | Type    | Default | Description |
 |------------|--------|---------|-------------|
@@ -58,8 +58,8 @@ Debugging distributed applications can be challenging, especially when different
 ## Best Practices for Debugging
 
 - **Prefer Local Debugging**: It provides the most direct feedback and does not depend on another device.
-- **Use Remote Debugging When Necessary**: If a page is running on a smartphone or embedded device where accessing logs is inconvenient, remote debugging can centralize logs in an easier-to-access page.
-- **Avoid Setting `debug: true` on Multiple Pages**: Only one page should act as the debugging hub; otherwise, logs could become inconsistent.
+- **Use Remote Debugging When Necessary**: If a page is running on a smartphone or other device where accessing logs is inconvenient, remote debugging can centralize logs in an easier-to-access page.
+- **Avoid Setting `debug: "master"` on Multiple Pages**: Only one page should act as the debugging hub; otherwise, logs could become inconsistent.
 
 ## Example Configuration (`config.js`)
 
