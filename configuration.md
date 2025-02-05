@@ -7,21 +7,11 @@ nav_order: 2
 
 The `config.js` file is essential for defining the structure of distributed interactive application built with Protobject Framework. This file specifies the connected devices (or application pages), their roles, and debugging preferences.
 
-## Enabling Production Mode
+## Development and Production Mode
 
-You can enable production mode to ensure that your application has a unique identifier when started (using the `?ptjuid={random}` parameter), avoiding potential conflicts between multiple instances of the web app. This is particularly important when you're deploying your application publicly.
+During development, you can disable production mode by setting `Protobject.setProduction(false)` at the beginning of the `config.js` file or simply commenting out the line, as you are likely working with a single instance of the application.
 
-To enable production mode, set `Protobject.setProduction(true)` at the beginning of the `config.js` file:
-
-```javascript
-Protobject.setProduction(true);
-```
-
-This will generate a unique identifier for the application instance. During development, you can disable production mode by setting `Protobject.setProduction(false)` or simply commenting out the line. This is useful when you're working with a single instance of the application and don't need a unique identifier to prevent collisions.
-
-### Development Mode
-- **Enable Production Mode for Public Release**: Always enable production mode when deploying the application publicly to avoid conflicts between instances.
-- **Disable During Development**: During development, you can disable production mode as you are likely working with a single instance of the application.
+After development, you can enable production mode by setting `Protobject.setProduction(true)` to ensure that your application has a unique identifier when started (using the `?ptjuid={random}` parameter), avoiding potential conflicts between multiple instances of the web app. This is particularly important when you're deploying your application publicly.
 
 ## Defining Connected Devices
 
