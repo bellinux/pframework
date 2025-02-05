@@ -6,7 +6,7 @@ toc: false
 
 # Available Components
 
-Protobject Framework offers a wide range of components that enable the creation of interactive, distributed, and dynamic systems. These components can be used across various devices, such as smartphones, tablets, and PCs, to prototype IoT systems. Each component serves a specific function, from simple user interface elements like buttons and switches to more advanced sensors and actuators like cameras, accelerometers, and sound players. By combining these components, users can rapidly build systems that interact with both the physical and digital worlds.
+Protobject Framework offers a wide range of components that enable the creation of interactive, distributed, and dynamic systems. These components can be used across various devices, such as smartphones, tablets, and PCs, to prototype advanced interactive systems. Each component serves a specific function, from simple user interface elements like buttons and switches to more advanced sensors and actuators like cameras, accelerometers, and sound players. By combining these components, users can rapidly build systems that interact with both the physical and digital worlds.
 
 We categorize and describe the 24 available components based on their primary functionality and corresponding physical equivalents as follows:
 
