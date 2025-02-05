@@ -78,6 +78,7 @@ Protobject.initialize([
   {
     name: "Main Device",
     page: "index.html",
+    main: true,
     debug: "master", // Collects and displays logs from all connected pages
   },
   {
