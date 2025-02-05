@@ -5,10 +5,40 @@ nav_order: 2
 
 # Configuration File (`config.js`)
 
-The `config.js` file is essential for defining the structure of distributed interactive application built with Protobject Framework. This file specifies the connected devices (or application pages), their roles, and debugging preferences.
+Properly configuring the config.js file ensures a well-structured and debuggable distributed application in the Protobject Framework.
 {: .fs-6 .fw-300 }
 
 ---
+
+## Example Configuration (`config.js`)
+
+```javascript
+Protobject.setProduction(false) // Disable production mode during development
+Protobject.initialize([
+  {
+    name: "Main Device",
+    page: "index.html",
+    main: true,
+    debug: "master", // Collects and displays logs from all connected pages
+  },
+  {
+    name: "Secondary Device 1",
+    page: "device1.html",
+    debug: "remote", // Sends logs to the master page
+  },
+  {
+    name: "Secondary Device 2",
+    page: "device2.html",
+    debug: "remote", // Sends logs to the master page
+  },
+  {
+    name: "Secondary Device 3",
+    page: "device3.html",
+    debug: "local", // Displays logs locally on this page
+  },
+]);
+```
+
 
 ## Development and Production Mode
 
@@ -61,34 +91,4 @@ Debugging distributed applications can be challenging, especially when different
 - **Use Remote Debugging When Necessary**: If a page is running on a smartphone or other device where accessing logs is inconvenient, remote debugging can centralize logs in an easier-to-access page.
 - **Avoid Setting `debug: "master"` on Multiple Pages**: Only one page should act as the debugging hub; otherwise, logs could become inconsistent.
 
-## Example Configuration (`config.js`)
-
-```javascript
-Protobject.setProduction(false)
-Protobject.initialize([
-  {
-    name: "Main Device",
-    page: "index.html",
-    main: true,
-    debug: "master", // Collects and displays logs from all connected pages
-  },
-  {
-    name: "Secondary Device 1",
-    page: "device1.html",
-    debug: "remote", // Sends logs to the master page
-  },
-  {
-    name: "Secondary Device 2",
-    page: "device2.html",
-    debug: "remote", // Sends logs to the master page
-  },
-  {
-    name: "Secondary Device 3",
-    page: "device3.html",
-    debug: "local", // Displays logs locally on this page
-  },
-]);
-```
-
-By understanding and properly configuring the `config.js` file, you can efficiently structure and debug your multi-device interactive applications using the Protobject Framework.
 
