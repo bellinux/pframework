@@ -6,6 +6,9 @@ nav_order: 3
 # Communication Between Devices (Core API)
 
 Protobject Framework enables seamless communication between multiple devices, allowing them to interact dynamically within a distributed system by using Core API. This is achieved through message sending and receiving mechanisms.
+{: .fs-6 .fw-300 }
+
+---
 
 ## Sending Messages
 
