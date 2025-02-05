@@ -48,8 +48,6 @@ Protobject.initialize(
 ### Example `index.html` (Lamp Page)
 
 ```html
-<!-- This is a simple lamp that turns on with a button. See the file button.html -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -93,7 +91,6 @@ Protobject.initialize(
 ### Example `button.html` (Button Page)
 
 ```html
-<!-- This page defines the button -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
