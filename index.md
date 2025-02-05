@@ -28,6 +28,7 @@ The `config.js` file is used to configure the pages of your interactive applicat
 ### Example `config.js`
 
 ```javascript
+Protobject.setProduction(true)
 Protobject.initialize([
   {
     name: "Button",
