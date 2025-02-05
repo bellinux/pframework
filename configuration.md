@@ -7,38 +7,25 @@ nav_order: 2
 
 The `config.js` file is essential for defining the structure of distributed interactive application built with Protobject Framework. This file specifies the connected devices (or application pages), their roles, and debugging preferences.
 
+## Enabling Production Mode
+
+Before defining the connected devices and their debugging configuration, you can enable production mode to ensure that your application has a unique identifier, avoiding potential conflicts between multiple instances of the app. This is particularly important when you're deploying your application publicly.
+
+To enable production mode, set `Protobject.setProduction(true)` at the beginning of the `config.js` file:
+
+```javascript
+Protobject.setProduction(true);
+```
+
+This will generate a unique identifier for the application instance. During development, you can disable production mode by setting `Protobject.setProduction(false)` or simply commenting out the line. This is useful when you're working with a single instance of the application and don't need a unique identifier to prevent collisions.
+
+### Development Mode
+- **Enable Production Mode for Public Release**: Always enable production mode when deploying the application publicly to avoid conflicts between instances.
+- **Disable During Development**: During development, you can disable production mode as you are likely working with a single instance of the application.
+
 ## Defining Connected Devices
 
 Each page in a Protobject application corresponds to a device or a specific interface within the system. The `Protobject.initialize([])` function takes an array of objects, each representing a device/page with specific attributes.
-
-### Example Configuration
-
-```javascript
-Protobject.initialize([
-  {
-    name: "Main Device",
-    page: "index.html",
-    debug: "master", // Collects and displays logs from all connected pages
-  },
-  {
-    name: "Secondary Device 1",
-    page: "device1.html",
-    debug: "remote", // Sends logs to the master page
-  },
-  {
-    name: "Secondary Device 2",
-    page: "device2.html",
-    debug: "remote", // Sends logs to the master page
-  },
-  {
-    name: "Secondary Device 3",
-    page: "device3.html",
-    debug: "local", // Displays logs locally on this page
-  },
-]);
-```
-
-## Configuration Parameters
 
 Each object inside `Protobject.initialize([])` can contain the following parameters:
 
@@ -83,6 +70,34 @@ Debugging distributed applications can be challenging, especially when different
 - **Prefer Local Debugging**: It provides the most direct feedback and does not depend on another device.
 - **Use Remote Debugging When Necessary**: If a page is running on a smartphone or embedded device where accessing logs is inconvenient, remote debugging can centralize logs in an easier-to-access page.
 - **Avoid Setting `debug: true` on Multiple Pages**: Only one page should act as the debugging hub; otherwise, logs could become inconsistent.
+
+## Example Configuration (`config.js`)
+
+```javascript
+Protobject.setProduction(false)
+Protobject.initialize([
+  {
+    name: "Main Device",
+    page: "index.html",
+    debug: "master", // Collects and displays logs from all connected pages
+  },
+  {
+    name: "Secondary Device 1",
+    page: "device1.html",
+    debug: "remote", // Sends logs to the master page
+  },
+  {
+    name: "Secondary Device 2",
+    page: "device2.html",
+    debug: "remote", // Sends logs to the master page
+  },
+  {
+    name: "Secondary Device 3",
+    page: "device3.html",
+    debug: "local", // Displays logs locally on this page
+  },
+]);
+```
 
 By understanding and properly configuring the `config.js` file, you can efficiently structure and debug your multi-device interactive applications using the Protobject Framework.
 
