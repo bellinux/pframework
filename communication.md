@@ -1,5 +1,5 @@
 ---
-title: Communication
+title: Device Communication
 nav_order: 3
 ---
 
