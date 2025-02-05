@@ -12,9 +12,9 @@ The `config.js` file is essential for defining the structure of distributed inte
 
 ## Development and Production Mode
 
-During development, you can disable production mode by setting `Protobject.setProduction(false)` at the beginning of the `config.js` file or simply commenting out the line, as you are likely working with a single instance of the application.
+During development, you can disable production mode by setting `Protobject.setProduction(false)` at the beginning of the `config.js` file or simply commenting out the line. This is useful when working with a single instance of the application.
 
-After development, you can enable production mode by setting `Protobject.setProduction(true)` to ensure that your application has a unique identifier when started (using the `?ptjuid={random}` parameter), avoiding potential conflicts between multiple instances of the web app. This is particularly important when you're deploying your application publicly.
+For deployment, enable production mode by setting `Protobject.setProduction(true)`. This ensures your application generates a unique identifier (`?ptjuid={random}`) at startup, preventing conflicts between multiple instances of the web app - especially important for public deployment.
 
 ## Defining Connected Devices
 
