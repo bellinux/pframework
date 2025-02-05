@@ -29,22 +29,27 @@ The `config.js` file is used to configure the pages of your interactive applicat
 
 ```javascript
 Protobject.setProduction(true)
-Protobject.initialize([
-  {
-    name: "Button",
-    page: "button.html",
-  },
-  {
-    name: "Lamp",
-    page: "index.html",
-    main: true // Marks index.html as the main page
-  }
-]);
+Protobject.initialize(
+	[
+		{ 
+			name: "Button",
+			page: "button.html",
+			debug: "local",
+		},
+		{ 
+			name: "Lamp",
+			page: "index.html",
+			main: true,
+			debug: "master",
+		}
+	]);
 ```
 
 ### Example `index.html` (Lamp Page)
 
 ```html
+<!-- This is a simple lamp that turns on with a button. See the file button.html -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,24 +58,31 @@ Protobject.initialize([
     <title>Lamp</title>
   </head>
   <body>
+
     <script src="https://app.protobject.com/framework/p.js"></script>
     <script src="config.js"></script>
+    
+    <h1 style="font-family:sans-serif; text-align:center; margin-top:20px">This is the lamp</h1>
     <script>
-      // Create a Lamp component
+      // This file, index.html, defines a lamp.
+      // An instance of the lamp is created with the specified dimensions and position.
       const lamp = new Protobject.Lamp({
-        width: "100%",
-        height: "100%",
-        top: "0px",
-        left: "0px",
-        zIndex: 5
+        width: "calc(100% - 160px)", // Lamp width
+        height: "calc(100% - 160px)", // Lamp height
+        top: "80px", // Position from the top
+        left: "80px", // Position from the left
+        zIndex: 5,
+        borderRadius: "20px"
       });
 
-      // Listen for messages and update lamp state
+      // Event triggered when a message is received.
+      // If the received message is 'true', the lamp turns on with red light.
+      // If the message is 'false', the lamp turns off.
       Protobject.Core.onReceived(function (message) {
         if (message) {
-          lamp.setColor({ r: 255, g: 0, b: 0 }); // Turn lamp red when button is pressed
+          lamp.setColor({ r: 0, g: 255, b: 0 }); // Green light (RGB: 0, 255, 0)
         } else {
-          lamp.setColor({ r: 0, g: 0, b: 0 }); // Turn lamp off when button is released
+          lamp.setColor({ r: 0, g: 0, b: 0 }); // Off (RGB: 0, 0, 0)
         }
       });
     </script>
@@ -81,6 +93,7 @@ Protobject.initialize([
 ### Example `button.html` (Button Page)
 
 ```html
+<!-- This page defines the button -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -91,29 +104,38 @@ Protobject.initialize([
   <body>
     <script src="https://app.protobject.com/framework/p.js"></script>
     <script src="config.js"></script>
+    <h1 style="font-family:sans-serif; text-align:center; margin-top:20px">This is the button</h1>
     <script>
-      // Create a Button component
+      // A button is created with the following configurations:
       const button = new Protobject.Button({
-        text: "Click Me",
+        text: "Click Me", // Text displayed on the button
         style: {
-          backgroundColor: "blue",
-          color: "white",
-          padding: "10px 20px"
-        }
+          backgroundColor: "blue", // Button background color
+          color: "white", // Text color
+          padding: "10px 20px", // Internal spacing of the button (top-bottom, left-right)
+          width: "calc(100% - 160px)", // Lamp width
+          height: "calc(100% - 160px)", // Lamp height
+          top: "80px", // Position from the top
+          left: "80px", // Position from the left
+          borderRadius: "20px",
+        },
       });
 
-      // Send a message when button is pressed
+      // An action is defined for when the button is pressed.
+      // It displays a message in the console and sends the value 'true' to the "index.html" file.
       button.onPressed(() => {
-        Protobject.Core.send(true).to("index.html");
+        Protobject.Core.send(true).to("index.html"); // Send message to the file
       });
 
-      // Send a message when button is released
+      // An action is defined for when the button is released.
+      // It displays a message in the console and sends the value 'false' to the "index.html" file.
       button.onRelease(() => {
-        Protobject.Core.send(false).to("index.html");
+        Protobject.Core.send(false).to("index.html"); // Send message to the file
       });
     </script>
   </body>
 </html>
+
 ```
 
 [Edit on Glitch](https://glitch.com/edit/#!/protobject-basic-framework){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
