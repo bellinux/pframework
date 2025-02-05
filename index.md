@@ -23,7 +23,7 @@ To use the Protobject Framework in an HTML page, include the following scripts j
 <script src="config.js"></script>
 ```
 
-The `config.js` file is used to configure the pages of your interactive application. Below is an example that defines a simple prototype, where a button controls a lamp by turning it on and off.
+The `config.js` file is used to [configure your interactive application](configuration.md). Below is an example that defines a simple prototype, where a button controls a lamp by turning it on and off.
 
 ### Example `config.js`
 
