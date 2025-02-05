@@ -5,12 +5,12 @@ nav_order: 2
 
 # Configuration File (`config.js`)
 
-Properly configuring the config.js file ensures a well-structured and debuggable distributed application in the Protobject Framework.
+Properly configuring the `config.js` file ensures a well-structured and debuggable distributed application in the Protobject Framework.
 {: .fs-6 .fw-300 }
 
 ---
 
-## Example Configuration (`config.js`)
+## Example Configuration
 
 ```javascript
 Protobject.setProduction(false) // Disable production mode during development
