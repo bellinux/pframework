@@ -48,7 +48,6 @@ Debugging distributed applications can be challenging, especially when different
 
 - Errors, logs, warnings (`console.log`, `console.warn`, etc.) are displayed directly on the same page where they occur.
 - Recommended for development, as it allows direct debugging within each device/page.
-- If `debug` is `local`, this page will NOT send logs to a remote debugging page.
 
 ### **Remote Debugging (`debug: "remote"`)**
 
