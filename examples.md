@@ -3,6 +3,7 @@ title: Example Projects
 nav_order: 4
 ---
 
+# Example Projects
 Browse these example to see what you can do with Protobject Framework.
 
 {::nomarkdown}
