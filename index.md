@@ -85,6 +85,15 @@ Protobject.initialize(
       });
     </script>
   </body>
+  <style>
+    #ProtobjectPlusButton {
+      width: 80px !important;
+    }
+
+    #ProtobjectPlusButton:after {
+      content: " Connect";
+    }
+  </style>
 </html>
 ```
 
