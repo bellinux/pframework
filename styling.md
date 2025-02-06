@@ -42,4 +42,4 @@ When customizing the connect button, consider the following:
   You can change the background of the button (e.g., gradient, color, etc.), apply `border-radius` for rounded corners, adjust padding for spacing, and modify text styles for further customization.
 
 - **Use `!important` When Needed**:  
-  Since the CSS might be inline, use `!important` to override default styles and ensure your custom styles are applied correctly.
+  You may need to use `!important` to override default styles and ensure your custom styles are applied correctly.
