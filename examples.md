@@ -10,14 +10,16 @@ Browse these examples to discover what you can create with the Protobject Framew
 
 ---
 
-{% include youtube_video.html video_id="IQPKAOCOn-g" %}
+{% include video_embed.html video_id="IQPKAOCOn-g" %}
 
-Description of the project A.  
+Description of the project A.
+
 [Edit on Glitch](https://glitch.com/edit/#!/protobject-basic-framework){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 ---
 
-{% include youtube_video.html video_id="IQPKAOCOn-g" %}
+{% include video_embed.html video_id="IQPKAOCOn-g" %}
 
-Description of the project B.  
+Description of the project B.
+
 [Edit on Glitch](https://glitch.com/edit/#!/protobject-basic-framework){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
