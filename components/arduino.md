@@ -8,6 +8,8 @@ nav_order: 17
 
 The `Arduino` component provides an interface for connecting to and communicating with an Arduino Leonardo device via WebUSB. It allows setting callback functions to handle incoming data, as well as sending commands to control the Arduino's pins.
 
+{: .note }
+> **You only need to program the Arduino once. If it has already been programmed, proceed to the [next section](#starting-the-arduino-component).**
 
 ## Programming Arduino Leonardo
 Protobject is compatible with the Arduino Leonardo only, which must be programmed using the following code. 
