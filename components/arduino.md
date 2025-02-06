@@ -6,8 +6,88 @@ nav_order: 17
 
 # The Arduino Component
 
-The `Arduino` component provides an interface for connecting to and communicating with an Arduino device via WebUSB. It allows setting callback functions to handle incoming data, as well as sending commands to control the Arduino's pins.
+The `Arduino` component provides an interface for connecting to and communicating with an Arduino Leonardo device via WebUSB. It allows setting callback functions to handle incoming data, as well as sending commands to control the Arduino's pins.
 
+
+## Programming Arduino Leonardo
+Protobject is compatible with the Arduino Leonardo only, which must be programmed using the following code. 
+If you're not familiar with WebUSB, follow [this guide](https://github.com/webusb/arduino).
+
+```c
+#include <Servo.h>
+#include <WebUSB.h>
+#include <ArduinoJson.h>
+
+WebUSB WebUSBSerial(1 /* https:// */, "");
+#define Serial WebUSBSerial
+
+Servo rservo;
+Servo lservo;
+int defaultL = 1500;
+int defaultR = 1500;
+DynamicJsonDocument dynamicJSONDocument(128);
+
+void setup() {
+  while (!Serial) {
+    ;
+  }
+  Serial.begin(9600);
+  Serial.write("Sketch begins.\r\n> ");
+  Serial.flush();
+  lservo.attach(5); 
+  rservo.attach(6); 
+  pinMode(7, INPUT);
+  pinMode(8, INPUT);
+  pinMode(9, INPUT);
+  pinMode(3, OUTPUT); 
+  pinMode(11, OUTPUT); 
+  pinMode(13, OUTPUT); 
+  rservo.writeMicroseconds(defaultR);
+  lservo.writeMicroseconds(defaultL);  
+}
+
+void loop() {
+  const auto deser_err = deserializeJson(dynamicJSONDocument, Serial);
+  if (!deser_err){
+      JsonObject obj = dynamicJSONDocument.as<JsonObject>();
+      if (obj["device"] == "robot") { //and servos in general, continuous and angular
+        int rightSpeed = obj["right"];
+        int leftSpeed = obj["left"];
+        rservo.writeMicroseconds(defaultR-rightSpeed);
+        lservo.writeMicroseconds(defaultL+leftSpeed);
+      }
+      if (obj["device"] == "digitalWrite") { //pins 3,11,13
+        int pin = obj["pin"];
+        int val = obj["val"];
+        if (val==1){
+          digitalWrite(pin, HIGH);
+        } else {
+          digitalWrite(pin, LOW);
+        }
+        
+      }
+      if (obj["device"] == "analogWrite") { //pins 3,11,13
+        int pin = obj["pin"];
+        int val = obj["val"];
+        analogWrite(pin, val);
+      }
+      if (obj["device"] == "readAll") { //digital 7,8,9 //analog 0,1,2
+        StaticJsonDocument<200> doc;
+        doc["d7"] = digitalRead(7);
+        doc["d8"] = digitalRead(8);
+        doc["d9"] = digitalRead(9);
+        doc["a0"] = analogRead(0);
+        doc["a1"] = analogRead(1);
+        doc["a2"] = analogRead(2);
+        serializeJson(doc, Serial);
+        Serial.flush();
+      }
+    }
+}
+
+```
+
+Once programmed, you can connect the Arduino Leonardo to any PC or smartphone via USB. No Arduino IDE is required to work with it.
 
 ## Starting the Arduino Component
 To start connecting to an Arduino device, call the start method. This will display a popup for the user to confirm the connection.
