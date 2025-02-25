@@ -9,7 +9,7 @@ Welcome to the documentation for **Protobject Framework**, a system designed for
 {: .fs-6 .fw-300 }
 
 [Getting Started](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Example Projects](demo.md){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Example Projects](examples.md){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 
 ---
