@@ -227,11 +227,7 @@ The system links the hand's position on the map with the corresponding export da
 
 
 
-[Open on Glitch](#){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
-
-
-
-
+[Open on Glitch](https://glitch.com/edit/#!/infovis-finger-interaction){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
