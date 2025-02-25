@@ -11,7 +11,7 @@ Browse these examples to discover what you can create with the Protobject Framew
 
 
 
-
+---
 
 
 {:toc}
@@ -20,7 +20,7 @@ Browse these examples to discover what you can create with the Protobject Framew
 ## DataViz Projects
 In these projects, data visualization serves as the context for prototyping interactive systems that combine physical and digital elements. The focus is on creating prototypes that allow users to engage with data through tangible interactions—whether by moving objects, performing gestures, or interacting with physical maps.
 
----
+
 
 {% include video_embed.html video_id="Mv5B-Sr4Vtk" %}
 
@@ -231,4 +231,5 @@ The system links the hand's position on the map with the corresponding export da
 
 
 
-
+## Ubicomp Projects
+To be completed.
