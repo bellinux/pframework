@@ -91,7 +91,7 @@ Changes in the arrangement of the products affect the data displayed on the grap
 
 
 
-[Open on Glitch](#){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Open on Glitch](https://glitch.com/edit/#!/infovis-orderding-products){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
