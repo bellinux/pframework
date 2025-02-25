@@ -18,6 +18,3 @@ callouts:
   warning:
     title: Warning
     color: red
-
-toc:
-  enabled: true
