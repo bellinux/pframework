@@ -12,6 +12,7 @@ Browse these examples to discover what you can create with the Protobject Framew
 [DataViz Projects](#dataviz-projects){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
 [Ubicomp Projects](#ubicomp-projects){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
 
+---
 
 ## DataViz Projects
 In these projects, data visualization serves as the context for prototyping interactive systems that combine physical and digital elements. The focus is on creating prototypes that allow users to engage with data through tangible interactions—whether by moving objects, performing gestures, or interacting with physical maps.
