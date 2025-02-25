@@ -9,8 +9,8 @@ Browse these examples to discover what you can create with the Protobject Framew
 {: .fs-6 .fw-300 }
 
 
-[DataViz Projects](#data-viz-projects){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
-[Ubicomp Projects](#ubicomp-projects){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[DataViz Projects](#data-viz-projects){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
+[Ubicomp Projects](#ubicomp-projects){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2}
 
 
 ## DataViz Projects
