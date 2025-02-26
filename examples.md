@@ -229,4 +229,81 @@ The system links the hand's position on the map with the corresponding export da
 
 
 ## Ubicomp Projects
-To be completed.
+
+In these projects, interactive systems are prototyped to explore the integration of physical and digital elements in real-world applications. The focus is on developing functional prototypes that respond to environmental inputs—such as movement, sound, posture, or user presence—through tangible interactions. 
+
+
+{% include video_embed.html video_id="HfbwzE8pQpQ" %}
+
+This system detects unauthorized entry into a room and triggers an alarm if no deactivation code is entered.  
+
+How it works:
+- `index.html` manages the control panel for the alarm.  
+- `sensor.html` handles the motion sensor that activates the alarm.  
+
+The \textit{CameraMovement} component detects motion within the room, initiating a 10-second countdown. During this time, the \textit{Text} component allows the user to input a code to deactivate the alarm. If no code is entered, the \textit{SoundPlayer} component activates, emitting an audible alarm to alert occupants of the intrusion.  
+
+[Open on Glitch](https://glitch.com/edit/#!/smart-device-alarm-system){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+
+
+
+---
+
+{% include video_embed.html video_id="EVoAY_iS0VM" %}
+
+This system promotes silence in classrooms by displaying a noise alert when sound levels exceed a specified threshold.  
+
+How it works:
+- `index.html` detects the noise level and activates the corresponding indicator using a lamp.  
+
+The \textit{NoiseSensor} component monitors noise levels, and when the threshold is surpassed, the \textit{Text} component, displayed over a red \textit{Lamp}, shows an alert on the classroom's interactive screen. This visual cue encourages students to maintain a quieter environment conducive to learning.  
+
+[Open on Glitch](https://glitch.com/edit/#!/smart-device-noise-indicator){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+
+
+
+---
+
+{% include video_embed.html video_id="NSRCxqlIvWU" %}
+
+This prototype helps users maintain proper posture by vibrating whenever bad posture is detected.  
+
+How it works:
+- `index.html` manages the tilt sensor placed on the shoulders.  
+- `control.html` handles device activation and sensitivity adjustment.  
+
+The \textit{Acceleration} component senses the user's posture, and the \textit{Vibrator / Lamp} components provide haptic or visual feedback to alert them of improper alignment. A control interface on a smartwatch (reproduced using a smartphone), implemented using the \textit{Knob} component, allows users to adjust the system's sensitivity or temporarily pause the device using an on/off switch.  
+
+[Open on Glitch](https://glitch.com/edit/#!/smart-device-posture){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+
+
+---
+
+{% include video_embed.html video_id="nRb_IDX4cvc" %}
+
+This prototype optimizes energy usage by controlling lights based on user presence.  
+
+How it works:
+- `index.html` manages the Arduino to move the light switches.  
+- `sensor1.html` detects movement in one specific area.  
+- `sensor2.html` detects movement in another specific area.  
+
+The \textit{PresenceSensor} component detects movement in the room, and the \textit{Arduino} component uses servos together with Lego Technic to toggle physical switches, turning lights on or off. As users move through different areas, the system activates the lights in their immediate vicinity while turning off lights in unoccupied areas, thereby minimizing energy waste.  
+
+[Open on Glitch](https://glitch.com/edit/#!/smart-device-light-system){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+
+
+---
+
+{% include video_embed.html video_id="S0D4vLfPK9k" %}
+
+This system secures access to a door through a customizable code input mechanism.  
+
+How it works:
+- `index.html` handles the PIN code input.  
+- `control.html` manages the Arduino to lock and unlock the door.  
+- `remote.html` provides a master key feature for unlocking or resetting the code.  
+
+The \textit{Button} components serve as the keypad for entering a numeric combination, while the \textit{Arduino} component, connected to a servo integrated with a Lego Technic mechanism, controls the lock. Users can lock the door by setting a code and unlock it by re-entering the same code. Additionally, a Master Key feature allows resetting the lock to a new combination.  
+
+[Open on Glitch](https://glitch.com/edit/#!/smart-device-lock){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
