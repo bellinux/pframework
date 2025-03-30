@@ -46,6 +46,8 @@ This setup allows users to explore the relationship between earthquake intensity
 
 ---
 
+### Energy Estimation
+
 {% include video_embed.html video_id="fLIPH9yM_C0" %}
 
 In a closed space with active heating, the temperature remains stable thanks to a regulation system. However, when a door is opened, accumulated heat starts to escape while cold air enters, leading to a temperature drop.  
@@ -75,6 +77,8 @@ Based on this data, the visualization dynamically represents how the temperature
 
 
 ---
+
+### Dynamic Visualization of Product Export Data
 
 {% include video_embed.html video_id="KncN6g7VSN8" %}
 
@@ -114,6 +118,7 @@ Changes in the arrangement of the products affect the data displayed on the grap
 
 
 ---
+### Interactive Visualization Adjusted by Body Movement and Position
 
 {% include video_embed.html video_id="99EEUrqvUGY" %}
 
@@ -165,6 +170,8 @@ This interaction allows users to navigate and explore the visualization using on
 
 ---
 
+### Bitcoin Price Prediction Based on User Interaction
+
 {% include video_embed.html video_id="rzjwasJGIOk" %}
 
 This system displays different Bitcoin price predictions—optimistic, neutral, and pessimistic—based on various inputs such as gestures, facial expressions, and interaction with physical objects.  
@@ -186,6 +193,7 @@ These pages work together to dynamically generate predictions based on user inte
 
 
 ---
+### Dynamic Data Display Based on People Count
 
 {% include video_embed.html video_id="gUj_jpRxgCU" %}
 
@@ -210,6 +218,7 @@ Based on the detected count, different data sets are presented to reflect releva
 
 
 ---
+### Interactive Map for Fruit Export Data
 
 {% include video_embed.html video_id="a000BBFkAHc" %}
 
@@ -232,6 +241,7 @@ The system links the hand's position on the map with the corresponding export da
 
 In these projects, interactive systems are prototyped to explore the integration of physical and digital elements in real-world applications. The focus is on developing functional prototypes that respond to environmental inputs—such as movement, sound, posture, or user presence—through tangible interactions. 
 
+### Unauthorized Entry Detection and Alarm System
 
 {% include video_embed.html video_id="HfbwzE8pQpQ" %}
 
@@ -251,6 +261,8 @@ This system detects motion within a room and starts a countdown. During this per
 
 {% include video_embed.html video_id="EVoAY_iS0VM" %}
 
+### Classroom Noise Alert System
+
 This system promotes silence in classrooms by displaying a noise alert when sound levels exceed a specified threshold.  
 
 How it works:
@@ -263,6 +275,8 @@ This system monitors noise levels in a classroom and displays a visual alert whe
 
 
 ---
+
+### Posture Correction Feedback System
 
 {% include video_embed.html video_id="NSRCxqlIvWU" %}
 
@@ -279,6 +293,8 @@ This system detects improper posture and provides haptic or visual feedback to a
 
 ---
 
+### Energy-Efficient Lighting Control System
+
 {% include video_embed.html video_id="nRb_IDX4cvc" %}
 
 This prototype optimizes energy usage by controlling lights based on user presence.  
@@ -294,6 +310,8 @@ This system detects user movement and automatically controls lighting to optimiz
 
 
 ---
+
+### Customizable Code-Based Door Access System
 
 {% include video_embed.html video_id="S0D4vLfPK9k" %}
 
