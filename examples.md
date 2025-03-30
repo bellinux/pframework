@@ -18,7 +18,7 @@ Browse these examples to discover what you can create with the Protobject Framew
 In these projects, data visualization serves as the context for prototyping interactive systems that combine physical and digital elements. The focus is on creating prototypes that allow users to engage with data through tangible interactions—whether by moving objects, performing gestures, or interacting with physical maps.
 
 
-
+### Heartquakes in Chile
 {% include video_embed.html video_id="Mv5B-Sr4Vtk" %}
 
 By moving a small house to simulate earthquakes of different intensities, the system identifies the real earthquake that most closely matches the generated movement. Additionally, clicking on an earthquake causes a house to move—and potentially collapse—depending on the earthquake's intensity.  
