@@ -30,8 +30,8 @@ How it works:
 
 This setup allows users to explore the relationship between earthquake intensity and structural impact interactively.
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-terremotos){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
-
+[Code](https://github.com/bellinux/demo.pframework/tree/main/earthquake){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/earthquake/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
