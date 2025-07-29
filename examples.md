@@ -60,7 +60,8 @@ How it works:
 
 Based on this data, the visualization dynamically represents how the temperature changes in response to different door positions.
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-door-heater){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/heater){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/heater/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -92,7 +93,8 @@ Changes in the arrangement of the products affect the data displayed on the grap
 
 
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-orderding-products){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/ordering){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/ordering/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -130,7 +132,8 @@ How it works:
 
 This interaction allows users to navigate and explore the visualization using only their body movements.  
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-body-zoom){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/bodyzoom){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/bodyzoom/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -184,7 +187,8 @@ How it works:
 
 These pages work together to dynamically generate predictions based on user interactions across multiple input modes.
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-bitcoin-predictions){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/bcprediction){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/bcprediction/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -205,7 +209,8 @@ How it works:
 
 Based on the detected count, different data sets are presented to reflect relevant variations.
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-consumption-persons){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/consumption){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/consumption/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -233,7 +238,8 @@ The system links the hand's position on the map with the corresponding export da
 
 
 
-[Open on Glitch](https://glitch.com/edit/#!/infovis-finger-interaction){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/finger){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/finger/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -253,7 +259,8 @@ How it works:
 
 This system detects motion within a room and starts a countdown. During this period, users can enter a code to deactivate the alarm. If no code is provided, an alert is triggered to notify occupants of the intrusion.
 
-[Open on Glitch](https://glitch.com/edit/#!/smart-device-alarm-system){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/alarm){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/alarm/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -270,7 +277,8 @@ How it works:
 
 This system monitors noise levels in a classroom and displays a visual alert when the sound exceeds a predefined threshold. The alert serves as a cue to encourage a quieter environment conducive to learning. 
 
-[Open on Glitch](https://glitch.com/edit/#!/smart-device-noise-indicator){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/noise){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/noise/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 
@@ -288,7 +296,8 @@ How it works:
 
 This system detects improper posture and provides haptic or visual feedback to alert the user. A control interface allows for adjusting sensitivity or temporarily pausing the alerts.
 
-[Open on Glitch](https://glitch.com/edit/#!/smart-device-posture){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/posture){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/posture/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 ---
@@ -306,7 +315,8 @@ How it works:
 
 This system detects user movement and automatically controls lighting to optimize energy usage. Lights are activated in occupied areas and turned off in unoccupied spaces.
 
-[Open on Glitch](https://glitch.com/edit/#!/smart-device-light-system){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/light){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/light/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 
 ---
@@ -324,4 +334,8 @@ How it works:
 
 This system secures access to a door by using a customizable code input. The door lock is controlled by entering a numeric combination, with the option to reset the code using a Master Key feature.
 
-[Open on Glitch](https://glitch.com/edit/#!/smart-device-lock){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Code](https://github.com/bellinux/demo.pframework/tree/main/lock){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Demo](https://demos.framework.protobject.com/lock/){: .btn .btn-secondary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+
+
+
