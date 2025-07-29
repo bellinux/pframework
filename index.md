@@ -148,11 +148,6 @@ Protobject.initialize(
 [Watch the Video](https://github.com/user-attachments/assets/1f7bdf5d-e470-4a5d-a778-e3f7843a685c){: .btn .fs-5 .mb-4 .mb-md-0 target="_blank"}
 
 
-{: .note }
-> [Glitch](https://glitch.com) is an **excellent platform** for developing with the Protobject Framework.  
-> It allows **quick prototyping**, **easy collaboration**, and **real-time updates**.  
-> *Alternatively, you can use any static web hosting service.*
-
 
 
 
