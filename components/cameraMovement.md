@@ -31,7 +31,7 @@ Protobject.CameraMovement.onData((data) => {
 To enable the movement preview, you can add a method to handle the preview. For example:
 
 ```javascript
-Protobject.FaceSensor.showPreview({ top: 50, left: 50, width: 640, height: 480 });
+Protobject.CameraMovement.showPreview({ top: 50, left: 50, width: 640, height: 480 });
 
 ```
 
@@ -41,6 +41,7 @@ Protobject.FaceSensor.showPreview({ top: 50, left: 50, width: 640, height: 480 }
 To hide the movement preview, you can use a method to do so. For example:
 
 ```javascript
-Protobject.FaceSensor.hidePreview();
+Protobject.CameraMovement.hidePreview();
 
 ```
+
