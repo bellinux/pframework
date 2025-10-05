@@ -31,6 +31,8 @@ These components rely on camera input to detect and process visual data, enablin
 
 7. [**FaceSensor**](components/faceSensor.md): Detects faces using the camera, tracking facial landmarks and expressions.
 
+8.  [**QR**](components/qr.md): Scans and decodes QR codes using the camera, providing the embedded data through a callback. It corresponds to a QR code reader.
+
 ## Microphone-Based Components
 
 These components use audio input from a microphone to process sound data for classification, noise detection, or speech recognition.
@@ -85,3 +87,4 @@ These components provide unique functionalities that do not fall into the previo
     
 24. [**Arduino**](components/arduino.md): Enables communication with Arduino Leonardo devices via WebUSB, allowing for control of pins and interaction with sensors. It is ideal for extending platform capabilities for physical actuation using servos or for utilizing sensing capabilities not possible with smartphones.
 
+25. [**NFC**](components/nfc.md): Interacts with Near Field Communication (NFC) tags, allowing the reading of a tag's unique serial number. It corresponds to an NFC reader.
