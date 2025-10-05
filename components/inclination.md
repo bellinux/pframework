@@ -30,7 +30,3 @@ Protobject.Inclination.onData((data) => {
 
 
 
-
-
-```
-
