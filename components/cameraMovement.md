@@ -26,5 +26,3 @@ Protobject.CameraMovement.onData((data) => {
 ```
 
 
-```
-
