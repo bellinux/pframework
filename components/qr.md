@@ -1,4 +1,4 @@
---
+---
 title: QR
 parent: Components
 nav_order: 110
